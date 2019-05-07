@@ -1,0 +1,103 @@
+
+html {
+    background-image: url("MK11.png");
+    background-repeat: repeat-x;
+}
+
+UL {
+    text-align: center;
+    
+    
+}
+
+nav a {
+    color: black;
+    font-size: 15px;
+}
+
+nav a:hover{
+
+    color: white;
+}
+h1:hover {
+    color: rgb(201, 0, 0);
+}
+
+.Cyrax {
+color: red;
+}
+
+.Kenshi {
+    background-color:red;
+
+}
+
+.Tanya {
+    background-color: gold;
+
+}
+
+.Baraka {
+    background-color: wheat;
+
+}
+
+.Ermac {
+    background-color: darkolivegreen;
+    color: red;
+
+}
+
+.Noob {
+    background-color: black;
+    color: white;
+
+}
+
+.Smoke {
+    background-color: gray;
+
+}
+
+.Takeda {
+    background-color: lightskyblue;
+
+}
+
+.Scorpion {
+    background-color: orange;
+
+}
+
+.Kitana {
+    background-color: darkblue;
+    color: white;
+
+}
+
+.Jade {
+    background-color: green;
+    color: white;
+
+}
+
+.Fatality {
+    background-color: white;
+}
+
+
+@keyframes Fatality {
+    0% {left:0px;}
+    25% {left:50px;}
+    50% {left:0px}
+    75% {left:-50px}
+    100% {left:0px; padding: 10px;}
+}
+
+.Fatality:hover {
+    animation-name: Fatality;
+    animation-duration: 15s;
+    position: relative;
+    color: red;
+
+}
